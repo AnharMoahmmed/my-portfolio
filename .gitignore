@@ -1,0 +1,35 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+.vite/
+dist
+dist-ssr
+*.local
+
+# PhpStorm
+.idea/
+.phpstorm.meta.php
+.blade.php.jsx.meta.php
+.vagrant/
+.vscode/*
+!.vscode/extensions.json
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db

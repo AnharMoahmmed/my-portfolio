@@ -1,0 +1,21 @@
+@import "tailwindcss";
+ 
+
+/* Custom scrollbar styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #38BDF8;
+}
